@@ -1,5 +1,6 @@
 package com.owenselles.basicanarchy;
 
+import com.owenselles.basicanarchy.Commands.CommandDiscord;
 import com.owenselles.basicanarchy.Commands.CommandHelp;
 import com.owenselles.basicanarchy.Commands.CommandSuicide;
 import com.owenselles.basicanarchy.Events.OnPlayerJoin;
@@ -9,10 +10,12 @@ public class BasicAnarchy extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("onEnable is called!");
         this.getCommand("suicide").setExecutor(new CommandSuicide());
         this.getCommand("help").setExecutor(new CommandHelp());
+        this.getCommand("discord").setExecutor(new CommandDiscord());
         getServer().getPluginManager().registerEvents(new OnPlayerJoin(), this);
+        getLogger().info("load successful");
+
     }
 
     @Override

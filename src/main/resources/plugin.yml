@@ -13,3 +13,6 @@ commands:
   help:
     description: Get command information
     usage: /help
+  discord:
+    description: Gives you the link to the Discord server
+    usage: /discord

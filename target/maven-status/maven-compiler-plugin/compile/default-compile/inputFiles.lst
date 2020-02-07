@@ -1,5 +1,6 @@
 /Users/owenselles/Documents/projects/BasicAnarchy/src/main/java/com/owenselles/basicanarchy/Events/OnPlayerJoin.java
 /Users/owenselles/Documents/projects/BasicAnarchy/src/main/java/com/owenselles/basicanarchy/BasicAnarchy.java
+/Users/owenselles/Documents/projects/BasicAnarchy/src/main/java/com/owenselles/basicanarchy/Commands/CommandDiscord.java
 /Users/owenselles/Documents/projects/BasicAnarchy/src/main/java/com/owenselles/basicanarchy/Commands/CommandHelp.java
 /Users/owenselles/Documents/projects/BasicAnarchy/src/main/java/com/owenselles/basicanarchy/Commands/CommandSuicide.java
 /Users/owenselles/Documents/projects/BasicAnarchy/src/main/java/com/owenselles/basicanarchy/Utils/Color.java

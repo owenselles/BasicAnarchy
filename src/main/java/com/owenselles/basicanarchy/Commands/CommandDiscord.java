@@ -6,17 +6,14 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class CommandHelp implements CommandExecutor {
+public class CommandDiscord implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
             Player player = (Player) sender;
 
-            player.sendMessage(Color.add("&6/help: &fShows this message."));
-            player.sendMessage(Color.add("&6/msg: &fSend someone a private message."));
-            player.sendMessage(Color.add("&6/suicide: &fKill yourself."));
-            player.sendMessage(Color.add("&6/discord: &fGet the Discord invite link"));
+            player.sendMessage(Color.add("&9Discord server: https://discord.gg/p2TQZ4t"));
             return true;
         }
         return false;
