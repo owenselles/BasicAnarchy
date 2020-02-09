@@ -1,6 +1,6 @@
 package com.owenselles.basicanarchy.Commands;
 
-import com.owenselles.basicanarchy.Utils.Color;
+import com.owenselles.basicanarchy.Utils.ColorProvider;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -13,7 +13,7 @@ public class CommandDiscord implements CommandExecutor {
         if (sender instanceof Player) {
             Player player = (Player) sender;
 
-            player.sendMessage(Color.add("&9Discord server: https://discord.gg/p2TQZ4t"));
+            player.sendMessage(ColorProvider.add("&9Discord server: https://discord.gg/p2TQZ4t"));
             return true;
         }
         return false;
