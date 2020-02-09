@@ -17,6 +17,7 @@ public class CommandHelp implements CommandExecutor {
             player.sendMessage(Color.add("&6/msg: &fSend someone a private message."));
             player.sendMessage(Color.add("&6/suicide: &fKill yourself."));
             player.sendMessage(Color.add("&6/discord: &fGet the Discord invite link"));
+            player.sendMessage(Color.add("&6/plugins: &fShows the server plugins"));
             return true;
         }
         return false;
