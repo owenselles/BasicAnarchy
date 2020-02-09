@@ -10,7 +10,7 @@ public class SpawnProvider {
     private static World w = BasicAnarchy.getPlugin(BasicAnarchy.class).getServer().getWorld("world");
 
     public Location getSpawn(Player p) {
-        
+
         // min - max spawn range
         int x = RandomNumberProvider.getRandomNumberInRange(-100, 100);
         int z = RandomNumberProvider.getRandomNumberInRange(-100, 100);
