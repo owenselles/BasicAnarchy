@@ -17,8 +17,6 @@ public class BasicAnarchy extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new OnPlayerJoin(), this);
         getServer().getPluginManager().registerEvents(new OnDeath(), this);
-        getLogger().info("load successful");
-
     }
 
     @Override

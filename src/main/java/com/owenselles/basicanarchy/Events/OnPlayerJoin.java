@@ -16,7 +16,7 @@ public class OnPlayerJoin implements Listener {
         player.sendMessage(ColorProvider.add("&6 Welcome to Anarchy! &fwhere teams are formed, empires built and bases raided. " +
                 "In this ever-changing world you are free to do whatever your heart desires."));
         player.sendMessage(ColorProvider.add(""));
-        player.sendMessage(ColorProvider.add("&f The only rule we follow is &cNO HACKED CLIENTS&f. This will get you banned."));
+        player.sendMessage(ColorProvider.add("&f The only rule we follow is &cNO HACKED CLIENTS&f. This can get you banned."));
 
         if (!event.getPlayer().hasPlayedBefore()) {
             event.getPlayer().teleport(new SpawnProvider().getSpawn(event.getPlayer()));
