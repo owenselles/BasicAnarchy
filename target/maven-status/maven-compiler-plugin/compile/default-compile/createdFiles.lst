@@ -1,6 +1,7 @@
 com/owenselles/basicanarchy/Utils/RandomNumberProvider.class
 com/owenselles/basicanarchy/Utils/SpawnProvider.class
 com/owenselles/basicanarchy/Events/OnDeath.class
+com/owenselles/basicanarchy/Events/OnPlayerChat.class
 com/owenselles/basicanarchy/BasicAnarchy.class
 com/owenselles/basicanarchy/Utils/ColorProvider.class
 com/owenselles/basicanarchy/Commands/CommandSuicide.class

@@ -4,6 +4,7 @@ import com.owenselles.basicanarchy.Commands.CommandDiscord;
 import com.owenselles.basicanarchy.Commands.CommandHelp;
 import com.owenselles.basicanarchy.Commands.CommandSuicide;
 import com.owenselles.basicanarchy.Events.OnDeath;
+import com.owenselles.basicanarchy.Events.OnPlayerChat;
 import com.owenselles.basicanarchy.Events.OnPlayerJoin;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -17,6 +18,7 @@ public class BasicAnarchy extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new OnPlayerJoin(), this);
         getServer().getPluginManager().registerEvents(new OnDeath(), this);
+        getServer().getPluginManager().registerEvents(new OnPlayerChat(), this);
     }
 
     @Override
