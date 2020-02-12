@@ -12,8 +12,8 @@ public class SpawnProvider {
     public Location getSpawn(Player p) {
 
         // min - max spawn range
-        int x = RandomNumberProvider.getRandomNumberInRange(-100, 100);
-        int z = RandomNumberProvider.getRandomNumberInRange(-100, 100);
+        int x = RandomNumberProvider.getRandomNumberInRange(-75, 75);
+        int z = RandomNumberProvider.getRandomNumberInRange(-75, 75);
         int y = w.getHighestBlockYAt(x, z);
 
         Location l = new Location(w, x, y, z);
@@ -26,7 +26,7 @@ public class SpawnProvider {
         }
 
         //check if the location is too close to zero
-        if ((x > -25 && x < 25) || (z > -25 && z < 25)) {
+        if ((x > -15 && x < 15) || (z > -15 && z < 15)) {
             invalid = true;
         }
 
