@@ -6,5 +6,4 @@ com/owenselles/basicanarchy/BasicAnarchy.class
 com/owenselles/basicanarchy/Utils/ColorProvider.class
 com/owenselles/basicanarchy/Commands/CommandSuicide.class
 com/owenselles/basicanarchy/Commands/CommandHelp.class
-com/owenselles/basicanarchy/Commands/CommandDiscord.class
 com/owenselles/basicanarchy/Events/OnPlayerJoin.class
